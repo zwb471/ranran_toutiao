@@ -10,6 +10,7 @@
                 <Channel :channel="channel"></Channel>
             </van-tab>
 
+            <!--  -->
             <div slot="nav-right" class="horder"></div>
             <div slot="nav-right" class="more-btn" @click="ischannelshow=true">
                 <i class="ranran icon-gengduo"></i>
