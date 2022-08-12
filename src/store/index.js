@@ -1,16 +1,16 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import {setItem,getItem} from '../utils/story'
+import { setItem, getItem } from '../utils/story'
 Vue.use(Vuex)
 const ranran = '[object Object]'
 export default new Vuex.Store({
   state: {
-    user:getItem(ranran)
+    user: getItem(ranran)
   },
   mutations: {
-    setUser(state,data){
+    setUser(state, data) {
       state.user = data
-      setItem(state,data)
+      setItem(state, data)
     }
   },
   actions: {

@@ -1,28 +1,21 @@
 <template>
     <div>
-        
+        dddd
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Ra',
-    components: {  },
-    directives: {  },
+    name: "Ra",
+    components: {},
+    directives: {},
     data() {
-        return {
-            
-        };
+        return {};
     },
-    mounted() {
-        
-    },
-    methods: {
-        
-    },
+    mounted() {},
+    methods: {},
 };
 </script>
 
 <style lang="less" scoped>
-
 </style>

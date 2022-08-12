@@ -2,15 +2,16 @@ import axios from 'axios'
 import store from '../store';
 import JSONBig from 'json-bigint'
 const req = axios.create({
-  baseURL: 'http://ttapi.research.itcast.cn/',//基准路径
+  // baseURL: 'http://ttapi.research.itcast.cn/',//基准路径
+  baseURL: 'http://www.liulongbin.top:8000',//基准路径
   transformResponse: [function (data) {
-    try { 
+    try {
       // 返回 用jsonbig真实 大数据
       return JSONBig.parse(data)
     } catch (err) {
       // data 是原始json字符串
       return data
-     }
+    }
   }]
 })
 
